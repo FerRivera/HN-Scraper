@@ -52,6 +52,8 @@ src/
     Services/
       HnService.cs
 
+---
+
 Notes:
 - `HnScraper` is responsible for fetching/parsing pages and pagination.
 - `HnService` is responsible for “policy” (source selection + filtering + sorting).
