@@ -1,0 +1,66 @@
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ny [Cc][Pp][Uu]/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# VS Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+# packages/ (uncomment if you ever use packages.config)
+# packages/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test results / coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coveragereport/
+
+# Publish / artifacts
+publish/
+artifacts/
+
+# Local environment
+.env
+.env.*
+secrets.json
+
+# Optional: keep practice code out of git
+# Practice/
+
+# Visual Studio cache/temporary
+.vscode-test/
+*.cache
+
+# ASP.NET / web publish artifacts
+wwwroot/lib/
