@@ -2,7 +2,7 @@
 
 A small, GitHub-ready .NET project that scrapes Hacker News (Top or Newest), supports pagination, applies basic filtering/sorting policies, and prints deterministic JSON to stdout.
 
-This repo was built as preparation for common “scraping + refactor” interview challenges (e.g., BairesDev-style exercises).
+This repo was built as preparation for common “scraping + refactor” interview challenges.
 
 ---
 
