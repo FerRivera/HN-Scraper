@@ -33,24 +33,24 @@ This repo was built as preparation for common “scraping + refactor” intervie
 
 ---
 
-## Project Structure (Intended)
+## Project Structure
 
-Typical structure in this repo:
-
-/Models
-HnItem.cs
-
-/Common
-Helpers.cs
-HnUrls.cs
-
-/Scraping
-HnScraper.cs
-
-/Services
-HnService.cs
-
-Program.cs
+```text
+HN.Scraper.sln
+README.md
+src/
+  HN.Scraper.Cli/
+    HN.Scraper.Cli.csproj
+    Program.cs
+    Common/
+      Helpers.cs
+      HnUrls.cs
+    Models/
+      HnItem.cs
+    Scraping/
+      HnScraper.cs
+    Services/
+      HnService.cs
 
 Notes:
 - `HnScraper` is responsible for fetching/parsing pages and pagination.
