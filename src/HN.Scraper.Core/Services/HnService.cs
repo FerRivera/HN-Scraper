@@ -1,8 +1,8 @@
-using HN.Scraper.Cli.Common;
-using HN.Scraper.Cli.Models;
-using HN.Scraper.Cli.Scraping;
+using HN.Scraper.Core.Common;
+using HN.Scraper.Core.Models;
+using HN.Scraper.Core.Scraping;
 
-namespace HN.Scraper.Cli.Services;
+namespace HN.Scraper.Core.Services;
 
 public enum HnSource
 {

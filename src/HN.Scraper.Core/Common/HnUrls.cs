@@ -1,4 +1,4 @@
-﻿namespace HN.Scraper.Cli.Common;
+﻿namespace HN.Scraper.Core.Common;
 
 public static class HnUrls
 {

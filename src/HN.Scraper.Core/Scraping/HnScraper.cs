@@ -1,9 +1,9 @@
 using AngleSharp;
 using AngleSharp.Dom;
-using HN.Scraper.Cli.Common;
-using HN.Scraper.Cli.Models;
+using HN.Scraper.Core.Common;
+using HN.Scraper.Core.Models;
 
-namespace HN.Scraper.Cli.Scraping;
+namespace HN.Scraper.Core.Scraping;
 
 public class HnScraper
 {

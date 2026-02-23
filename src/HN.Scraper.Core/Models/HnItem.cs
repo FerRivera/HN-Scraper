@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HN.Scraper.Cli.Models
+namespace HN.Scraper.Core.Models
 {
     public sealed record HnItem(
     string Title,

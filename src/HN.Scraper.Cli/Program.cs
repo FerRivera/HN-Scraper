@@ -1,6 +1,6 @@
 using System.Text.Json;
-using HN.Scraper.Cli.Scraping;
-using HN.Scraper.Cli.Services;
+using HN.Scraper.Core.Scraping;
+using HN.Scraper.Core.Services;
 
 using var http = new HttpClient();
 
